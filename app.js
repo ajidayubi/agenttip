@@ -1,13 +1,13 @@
 // AgentTip frontend — static, no build step. ethers v6 via CDN (see index.html).
 // CONFIG: fill CONTRACT_ADDRESS + DEPLOY_BLOCK after each deployment.
 const CONFIG = {
-  // BSC MAINNET (56) — contract address filled after mainnet deploy.
-  CONTRACT_ADDRESS: "0x0000000000000000000000000000000000000000", // TODO: mainnet address
+  // BSC MAINNET (56) — deployed 2026-11-18, block 134308028.
+  CONTRACT_ADDRESS: "0xe76950066da82eCF7B2Cc2577Ef789Fe4B44ebeA",
   CHAIN_ID: 56,
   CHAIN_NAME: "BNB Smart Chain",
   RPC_URL: "https://bsc-dataseed.binance.org/",
   BSCSCAN: "https://bscscan.com",
-  DEPLOY_BLOCK: 0, // TODO: deployment block (0 = last 10,000 blocks)
+  DEPLOY_BLOCK: 134308028,
   REGISTRY: "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
 };
 
